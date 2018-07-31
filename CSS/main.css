@@ -1,0 +1,201 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+div{
+    background-color: yellow;
+}
+*/
+.topnav{
+    background-color: black;
+    overflow:hidden;
+
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2; /* rgb(255,255,255)*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+        
+
+}
+
+.topnav a:hover{
+    background-color: blue;
+    color: aqua;
+}
+
+.topnav a.active{
+    background-color: rgb(71, 22,247);
+    color: white;
+}
+
+
+.topnav input[type=text]{
+    float: right;
+    padding:6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border:5px;
+    font-size: 17px;
+}
+
+.topnav .search-container{
+    float: right;
+
+}
+.topnav .search-container button{
+    float: right;
+    margin-left: 0;
+    margin-right: 16px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/* to adjust the navigation menu acc to screen size*/
+@media screen and (max-width:600px){
+    .topnav .search-container{
+        float:none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button{
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin:0;
+        padding: 14px;
+    }
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: red;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#fb, #gl, #ig{
+    margin-right: 16px;
+    color:aqua;
+}
+.facebook{
+    margin-right: 16px;
+}
+
+.google{
+       margin-right: 16px;
+}
+
+.bottomcolumn{
+    text-align: center;
+    margin-top:10px;
+}
+
+.row{
+    background-color: yellow;
+    border-radius: 10px;
+    margin-top:10px;
+    padding-top:10px;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.column{
+    float: left;
+    background-color: aqua;
+}
+
+.left{
+    width:15%;
+    text-align:center;
+    padding-top:10px ;
+    padding-bottom: 10px;
+
+}
+.right{
+    width:75%;
+    margin: 1px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
+}
+.lastdiv{
+    margin-bottom: 150px;
+}
+
+
+
+
+.roworigin{
+ background-color: darkgoldenrod;
+ padding: 10px 10px 10px 10px;
+ margin: 10px 10px 10px 10px;
+ border-radius: 10px;
+ display:flex;
+ clear:both;
+}
+
+.twocolumn{
+    width:45%;
+    float:left;
+    padding: 10px 10px 10px 10px;
+   
+}
+
+table{
+    width:100%;
+    border: 1px solid green;
+    border-spacing: 10;
+    border-collapse: collapse;
+}
+th, td{
+text-align:center;
+padding: 10px;
+border: 1px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd){
+    background-color:gray;
+}
+
+.threecolumn{
+    width:33%;
+    float:left;
+    padding: 10px 10px 10px 10px;
+    background-color:gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* to apply css to all the hyperlink in the webpage*/
+
+a:link{
+ color: lightgreen;
+ text-decoration: none;
+ background-color: transparent;
+
+}
+
+a:hover{
+    color: red;
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}

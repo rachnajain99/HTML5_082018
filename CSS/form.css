@@ -1,0 +1,47 @@
+.column1{
+ float:left;
+ padding: 10px;
+ height:80%;
+ background-color: lightblue;
+ margin:10px;
+ 
+}
+
+.containerleft, .containerright{
+    width: 10%;
+   
+}
+
+.containermiddle{
+    width: 70%;
+}
+
+.formcss{
+  width: 70%;
+  padding:12px;
+  border:1px solid lightgreen;
+  border-radius:5px;
+  margin-top:5px;
+  margin-bottom: 15px;
+
+
+}
+
+.formemail{
+    width: 50%;
+}
+.formlabel{
+    width:100px;
+    display:block;
+}
+
+.formbutton{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float:right;
+    cursor:pointer;
+}
+
